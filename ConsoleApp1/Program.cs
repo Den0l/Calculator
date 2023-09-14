@@ -19,7 +19,7 @@ do
     {
         Console.Write("Введите первое число: ");
       double  a = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Введите Второе число: ");
+        Console.Write("Введите Второе число: ");
       double  b = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Результат:" + (a + b));
 
@@ -28,7 +28,7 @@ do
     {
         Console.Write("Введите первое число: ");
         double  a = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Введите Второе число: ");
+        Console.Write("Введите Второе число: ");
        double b = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Результат:" + (a - b));
     }
@@ -36,7 +36,7 @@ do
     {
         Console.Write("Введите первое число: ");
        double a = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Введите Второе число: ");
+        Console.Write("Введите Второе число: ");
       double  b = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Результат:" + (a * b));
     }
@@ -44,7 +44,7 @@ do
     {
         Console.Write("Введите первое число: ");
       double  a = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Введите Второе число: ");
+        Console.Write("Введите Второе число: ");
       double  b = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Результат:" + (a / b));
     }
@@ -52,19 +52,19 @@ do
     {
         Console.Write("Введите первое число: ");
       double  a = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Введите Степень: ");
+        Console.Write("Введите Степень: ");
        double b = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Результат:" + Math.Pow(a, b));
     }
     else if (txt == "6")
     {
-        Console.Write("Введите первое число: ");
+        Console.Write("Введите число: ");
      double   a = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Результат:" + Math.Sqrt(a));
     }
     else if (txt == "7")
     {
-        Console.Write("Введите первое число: ");
+        Console.Write("Введите число: ");
       double  a = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Результат" + (a/100));
         
@@ -72,7 +72,7 @@ do
     else if (txt == "8")
     {
         int b = 1;
-        Console.Write("Введите первое число: ");
+        Console.Write("Введите число: ");
        double a = Convert.ToDouble(Console.ReadLine());
         for(int i = 1; i <= a; i++)
         {
@@ -89,4 +89,3 @@ do
         Console.WriteLine("Такой команды нет");
     }
 } while (txt != "9");
-       
